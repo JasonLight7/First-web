@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+.nav-photo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.index-fixed{
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #66BFBF;
+    z-index: 1;
+}
+
+hr{
+    border-color: gray;
+    opacity: 50%;
+    border-width: 5px;
+    width: 1.5%;
+    border-style: dotted none none none;
+    margin: 90px auto 90px auto;
+    height: 20px;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+  
+}
+h2{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+    font-size: 2rem;
+   
+}
+
+h3,a{
+   font-family: 'Montserrat', sans-serif;
+   color:#11999E;
+}
+
+
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight:lighter;
+}
+
+.top-container{
+    background-color:#eaf6f6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.mountain{
+    position:relative;
+    top: 4px;
+}
+
+/**By using position relative we let the parent to give the order to its childs to be inside of it and not attached to the hmtl flow.
+**/
+/**By using position absolute we send the order to the cloud element to not going with the html flow (static position) of the file. and put in an absolute position that doesnt affect other elements. 
+**/
+
+.cloud-top{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.cloud-bottom{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+} 
+
+.profile{
+    margin: 20px auto 20px auto;
+    width: 25%;
+    height: 25%;
+    line-height: 2;
+
+}
+
+.profile-photo{
+    border-radius: 500px;
+    margin: 20px auto 20px auto;
+    width: 55%;
+    height: 55%;
+}
+
+.computer{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.teamwork{
+    border-radius: 500px;
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-container{
+    padding: 40px;
+    margin-top: 30px;
+    background-color: #66BFBF;
+    height: 90px;
+}
+
+.paragraph-footer{
+    font-size: 0.8rem;
+    color: aliceblue;
+    line-height: 2;
+    font-weight: 20px;
+    margin-top: 20px;
+}
+
+.footer-link{
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-link:hover{
+    color: #11999E;
+}
+
+.button-container{
+    margin: 90px auto 90px auto;
+    background-color: #11999E;
+    padding: 20px;
+    width: 110px;
+    -webkit-border-radious: 8;
+}
+
+.button-container:hover{
+    background-color: #66BFBF;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+}
+
+.getintouch{
+    line-height: 3;
+    margin: 70px auto 60px auto;
+}
+
+
+
+
+
+
+
+
